@@ -51,9 +51,9 @@ public class Main {
                         String doctorName = sc.nextLine();
                         System.out.print("Specialization: ");
                         String specialization = sc.nextLine();
-                        System.out.print("Schedule (e.g. Mon 10AM-12PM): ");
+                        System.out.print("Schedule (e.g. Mon 10Am-12Pm): ");
                         String schedule = sc.nextLine();
-                        System.out.print("Consultation fee: ");
+                        System.out.print("Consultation fees: ");
                         double fee = Double.parseDouble(sc.nextLine());
                         doctors.addDoctor(doctorName, specialization, schedule, fee);
                         break;
