@@ -77,7 +77,7 @@ public class Main {
                         String problem = sc.nextLine();
                         String specialist = suggestSpecialization(problem);
                         System.out.println("Suggested specialization: " + specialist);
-                        System.out.println("This is a basic suggestion,it's not a medical diagnosis.");
+                        System.out.println("This is a basic suggestion, not a medical diagnosis.");
                         doctors.suggestDoctors(specialist);
                         System.out.print("Enter Doctor ID to book: ");
                         int doctorId = Integer.parseInt(sc.nextLine());
@@ -102,7 +102,7 @@ public class Main {
                         billing.viewBills();
                         break;
                     case 11:
-                        System.out.println("Thank you!");
+                        System.out.println("Thank you..!");
                         break;
                     
                     default:

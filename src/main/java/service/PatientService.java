@@ -10,7 +10,7 @@ public class PatientService {
 
     public void registerPatient(String name, int age) {
         if (count == patients.length) {
-            System.out.println("Patient list is full.");
+            System.out.println("Patients list is full.");
             return;
         }
         if (name.length() == 0 || age <= 0) {
