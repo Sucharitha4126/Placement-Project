@@ -22,7 +22,7 @@ public class BillingService {
             }
         }
         if (count == bills.length) {
-            System.out.println("Bills list is full.");
+            System.out.println("Bill list is full.");
             return;
         }
         Doctor doctor = doctorService.findDoctor(appointment.getDoctorId());
@@ -36,7 +36,7 @@ public class BillingService {
         if (count == 0) System.out.println("No bills generated.");
         for (int i = 0; i < count; i++) {
             Bill b = bills[i];
-            System.out.println("Bill: " + b.getId() + " | Appointments: "
+            System.out.println("Bill: " + b.getId() + " | Appointment: "
                 + b.getAppointmentId() + " | Rs." + b.getAmount());
         }
     }

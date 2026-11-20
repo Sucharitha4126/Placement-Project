@@ -31,7 +31,7 @@ public class PatientService {
     }
 
     public void viewPatients() {
-        if (count == 0) System.out.println("No patients registered.");
+        if (count == 0) System.out.println("No patient registered.");
         for (int i = 0; i < count; i++) {
             Patient p = patients[i];
             System.out.println(p.getId() + " | " + p.getName() + " | Age: " + p.getAge());
