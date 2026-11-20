@@ -28,8 +28,7 @@ public class Main {
             System.out.println("8. Cancel Appointment");
             System.out.println("9. Generate Bill");
             System.out.println("10. View Bills");
-            System.out.println("11. Search Patient");
-            System.out.println("12. Exit");
+            System.out.println("11. Exit");
             System.out.print("Enter choice: ");
 
             try {
