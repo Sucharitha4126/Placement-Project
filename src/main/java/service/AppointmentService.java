@@ -13,11 +13,11 @@ public class AppointmentService {
             return;
         }
         if (date.length() == 0 || time.length() == 0) {
-            System.out.println("Date and time should not be empty.");
+            System.out.println("Date and time  cannot be empty.");
             return;
         }
         if (count == appointments.length) {
-            System.out.println("Appointment list is full.");
+            System.out.println("Appointments list is full.");
             return;
         }
         for (int i = 0; i < count; i++) {
