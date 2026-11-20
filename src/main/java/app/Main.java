@@ -6,6 +6,7 @@ import service.DoctorService;
 import service.AppointmentService;
 import service.BillingService;
 
+
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -16,7 +17,7 @@ public class Main {
         int choice = 0;
 
         do {
-            System.out.println("\n===== HOSPITAL MANAGEMENT SYSTEM =====");
+            System.out.println("\n==== HOSPITAL MANAGEMENT SYSTEM ====");
             System.out.println("1. Register Patient");
             System.out.println("2. View Patients");
             System.out.println("3. Add Doctor");
@@ -103,6 +104,7 @@ public class Main {
                     case 11:
                         System.out.println("Thank you!");
                         break;
+                    
                     default:
                         System.out.println("Invalid menu choice.");
                 }
