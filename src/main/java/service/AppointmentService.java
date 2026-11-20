@@ -13,7 +13,7 @@ public class AppointmentService {
             return;
         }
         if (date.length() == 0 || time.length() == 0) {
-            System.out.println("Date and time cannot be empty.");
+            System.out.println("Date and time should not be empty.");
             return;
         }
         if (count == appointments.length) {
