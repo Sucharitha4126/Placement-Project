@@ -17,8 +17,8 @@ public class Main {
         int choice = 0;
 
         do {
-            System.out.println("\n==== HOSPITAL MANAGEMENT SYSTEM ====");
-            System.out.println("1. Register Patient");
+            System.out.println("\n====* HOSPITAL MANAGEMENT SYSTEM *====");
+            System.out.println("1. Patient Register ");
             System.out.println("2. View Patients");
             System.out.println("3. Add Doctor");
             System.out.println("4. View Doctors and Schedules");
