@@ -51,7 +51,7 @@ public class Main {
                         String doctorName = sc.nextLine();
                         System.out.print("Specialization: ");
                         String specialization = sc.nextLine();
-                        System.out.print("Schedule (e.g. Mon 10Am-12Pm): ");
+                        System.out.print("Schedule (e.g. Mon 10AM-12PM): ");
                         String schedule = sc.nextLine();
                         System.out.print("Consultation fees: ");
                         double fee = Double.parseDouble(sc.nextLine());
@@ -70,14 +70,14 @@ public class Main {
                         System.out.print("Patient ID: ");
                         int patientId = Integer.parseInt(sc.nextLine());
                         if (patients.findPatient(patientId) == null) {
-                            System.out.println("Patient not found. Register the patient first.");
+                            System.out.println("Patient not found. Please register the patient first.");
                             break;
                         }
                         System.out.print("Describe the patient's problem or symptoms: ");
                         String problem = sc.nextLine();
                         String specialist = suggestSpecialization(problem);
                         System.out.println("Suggested specialization: " + specialist);
-                        System.out.println("This is a basic suggestion, not a medical diagnosis.");
+                        System.out.println("This is a basic suggestion,it's not a medical diagnosis.");
                         doctors.suggestDoctors(specialist);
                         System.out.print("Enter Doctor ID to book: ");
                         int doctorId = Integer.parseInt(sc.nextLine());
