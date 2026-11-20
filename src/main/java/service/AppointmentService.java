@@ -24,7 +24,7 @@ public class AppointmentService {
             Appointment a = appointments[i];
             if (a.isActive() && a.getDoctorId() == doctorId &&
                 a.getDate().equals(date) && a.getTime().equals(time)) {
-                System.out.println("Doctor is already booked at that time.");
+                System.out.println("The doctor has another appointment at that time.");
                 return;
             }
         }
@@ -47,7 +47,7 @@ public class AppointmentService {
             System.out.println("Active appointment not found.");
         } else {
             a.cancel();
-            System.out.println("Appointment cancelled.");
+            System.out.println("The appointment has been cancelled.");
         }
     }
 
